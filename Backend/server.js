@@ -7,7 +7,7 @@ import errorHandler from "./src/middleware/middleware.js";
 import noteRoutes from "./src/routers/Routes.js";
 
 const app = express();
-console.log(process.env.mongodb_url , "mongodb");
+
 app.use(cors());
 app.use(json());
 
