@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:5000/api"
+const API_BASE_URL = "https://notes-app-gilt-gamma.vercel.app/api"
 
 export async function apiFetch(path: string, options?: RequestInit) {
   const res = await fetch(`${API_BASE_URL}${path}`, {
